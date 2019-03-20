@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a622f1e-7360-4f13-a6b9-eac4acf0ab86" name="Default Changelist" comment="" />
+    <list default="true" id="5a622f1e-7360-4f13-a6b9-eac4acf0ab86" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BFS_graph.gv" beforeDir="false" afterPath="$PROJECT_DIR$/BFS_graph.gv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BFS_graph.gv.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/BFS_graph.gv.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFS_graph.gv" beforeDir="false" afterPath="$PROJECT_DIR$/DFS_graph.gv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFS_graph.gv.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/DFS_graph.gv.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/state_space_tree.gv" beforeDir="false" afterPath="$PROJECT_DIR$/state_space_tree.gv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/state_space_tree.gv.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/state_space_tree.gv.pdf" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,13 +36,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="197" column="48" selection-start-line="197" selection-start-column="48" selection-end-line="197" selection-end-column="48" />
+            <state relative-caret-position="75">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
-                <element signature="e#79#775#0" />
-                <element signature="e#2003#3984#0" />
-                <element signature="e#4192#5021#0" />
+                <element signature="e#90#890#0" />
+                <element signature="e#935#1916#0" />
+                <element signature="e#1941#3949#0" />
+                <element signature="e#4124#4953#0" />
+                <element signature="e#5035#7271#0" />
               </folding>
             </state>
           </provider>
@@ -51,12 +62,17 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>print</find>
+      <find>final_state</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/bfs.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
@@ -67,11 +83,13 @@
     <option name="width" value="1152" />
     <option name="height" value="744" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -87,7 +105,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -121,16 +138,17 @@
       <workItem from="1552583648050" duration="2678000" />
       <workItem from="1552622998567" duration="5256000" />
       <workItem from="1552631982736" duration="7399000" />
+      <workItem from="1553049444685" duration="821000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15333000" />
+    <option name="totallyTimeSpent" value="16154000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="214" y="24" width="1152" height="744" extended-state="4" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27034357" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27576855" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -144,7 +162,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.28271407" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.28200972" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32956383" />
       <window_info anchor="right" x="0" y="0" width="238" height="544" id="Documentation" order="0" side_tool="true" weight="0.32911393" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
@@ -165,15 +183,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="197" column="48" selection-start-line="197" selection-start-column="48" selection-end-line="197" selection-end-column="48" />
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
-            <element signature="e#79#775#0" />
-            <element signature="e#2003#3984#0" />
-            <element signature="e#4192#5021#0" />
+            <element signature="e#90#890#0" />
+            <element signature="e#935#1916#0" />
+            <element signature="e#1941#3949#0" />
+            <element signature="e#4124#4953#0" />
+            <element signature="e#5035#7271#0" />
           </folding>
         </state>
       </provider>

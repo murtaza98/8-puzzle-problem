@@ -4,6 +4,7 @@ import copy
 
 counter = 1
 
+
 class State(object):
     def __init__(self, self_state, parent_id, parent_move, level):
         global counter
@@ -78,12 +79,6 @@ def create_child(parent_state, move):
 def bfs_search():
     global state_space_tree
     global id_to_state
-
-
-
-    final_state = [[1, 2, 3],
-                   [6, 5, 4],
-                   [7, 8, 0]]
     parent_state = id_to_state[1]
 
     dot = Digraph(comment='BFS graph')
@@ -127,9 +122,14 @@ def bfs_search():
 
     dot.render(str(os.getcwd() + '/BFS_graph.gv'), view=True)
 
-final_state = [[1, 2, 3],
-                [6, 5, 4],
-                [7, 8, 0]]
+
+initial_state = [[0, 1, 2],
+                [3, 4, 5],
+                [6, 7, 8]]
+
+final_state = [[1, 4, 2],
+                [3, 0, 5],
+                [6, 7, 8]]
 visited = []
 
 goal_found = False
@@ -174,14 +174,6 @@ if __name__ == "__main__":
     # for graph
     dot = Digraph(comment='State space graph')
 
-    initial_state = [[6, 1, 3],
-                     [2, 0, 4],
-                     [7, 5, 8]]
-
-    final_state = [[1, 2, 3],
-                   [6, 5, 4],
-                   [7, 8, 0]]
-
     opposite_movements = {"up": "down", "down": "up", "left": "right", "right": "left"}
     goal_found = False
     current_state = State(initial_state, 1, "null", 1)
@@ -195,7 +187,7 @@ if __name__ == "__main__":
     while (True):
         current_state = id_to_state[explore_queue.pop(0)]
 
-        if current_state.level  > goal_lvl + 10:
+        if current_state.level  > goal_lvl + 1:
             break
 
         parent_move = current_state.parent_move

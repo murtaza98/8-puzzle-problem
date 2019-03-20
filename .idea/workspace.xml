@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a622f1e-7360-4f13-a6b9-eac4acf0ab86" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BFS_graph.gv" beforeDir="false" afterPath="$PROJECT_DIR$/BFS_graph.gv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BFS_graph.gv.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/BFS_graph.gv.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DFS_graph.gv" beforeDir="false" afterPath="$PROJECT_DIR$/DFS_graph.gv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DFS_graph.gv.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/DFS_graph.gv.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/state_space_tree.gv" beforeDir="false" afterPath="$PROJECT_DIR$/state_space_tree.gv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/state_space_tree.gv.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/state_space_tree.gv.pdf" afterDir="false" />
-    </list>
+    <list default="true" id="5a622f1e-7360-4f13-a6b9-eac4acf0ab86" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="7">
+              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
                 <element signature="e#90#890#0" />
@@ -138,12 +129,12 @@
       <workItem from="1552583648050" duration="2678000" />
       <workItem from="1552622998567" duration="5256000" />
       <workItem from="1552631982736" duration="7399000" />
-      <workItem from="1553049444685" duration="821000" />
+      <workItem from="1553049444685" duration="956000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16154000" />
+    <option name="totallyTimeSpent" value="16289000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="214" y="24" width="1152" height="744" extended-state="4" />
@@ -162,7 +153,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.28200972" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.28200972" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32956383" />
       <window_info anchor="right" x="0" y="0" width="238" height="544" id="Documentation" order="0" side_tool="true" weight="0.32911393" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
@@ -192,8 +183,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="7">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
             <element signature="e#90#890#0" />

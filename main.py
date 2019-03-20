@@ -120,7 +120,7 @@ def bfs_search():
             if child_state.self_state == final_state:
                 break
 
-    dot.render(str(os.getcwd() + '/BFS_graph.gv'), view=True)
+    dot.render(str(os.getcwd() + '/outputs/BFS_graph.gv'), view=True)
 
 
 initial_state = [[0, 1, 2],
@@ -215,12 +215,12 @@ if __name__ == "__main__":
                     dot.node(str(state_obj.self_id), state_obj.__str__())
 
                 dot.edge(str(state_obj.parent_id), str(state_obj.self_id), label=move)
-    dot.render(str(os.getcwd() + '/state_space_tree.gv'), view=True)
+    dot.render(str(os.getcwd() + '/outputs/state_space_tree.gv'), view=True)
 
     bfs_search()
 
     parent = id_to_state[1]
     dfs(parent)
-    dot_dfs.render(str(os.getcwd() + '/DFS_graph.gv'), view=True)
+    dot_dfs.render(str(os.getcwd() + '/outputs/DFS_graph.gv'), view=True)
 
 

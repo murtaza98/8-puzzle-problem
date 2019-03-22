@@ -6,6 +6,7 @@ counter = 1
 
 
 class State(object):
+
     def __init__(self, self_state, parent_id, parent_move, level):
         global counter
         self.self_id = counter
@@ -123,13 +124,13 @@ def bfs_search():
     dot.render(str(os.getcwd() + '/outputs/BFS_graph.gv'), view=True)
 
 
-initial_state = [[0, 1, 2],
-                [3, 4, 5],
-                [6, 7, 8]]
+initial_state = [[0, 1, 3],
+                [6, 2, 4],
+                [7, 5, 8]]
 
-final_state = [[1, 4, 2],
-                [3, 0, 5],
-                [6, 7, 8]]
+final_state = [[1, 2, 3],
+                [6, 5, 4],
+                [7, 8, 0]]
 visited = []
 
 goal_found = False

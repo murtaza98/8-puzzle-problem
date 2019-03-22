@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a622f1e-7360-4f13-a6b9-eac4acf0ab86" name="Default Changelist" comment="" />
+    <list default="true" id="5a622f1e-7360-4f13-a6b9-eac4acf0ab86" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/informed.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,18 +28,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7">
-              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+            <state relative-caret-position="247">
+              <caret line="212" column="16" selection-start-line="212" selection-start-column="16" selection-end-line="215" selection-end-column="73" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
-                <element signature="e#90#890#0" />
-                <element signature="e#935#1916#0" />
-                <element signature="e#1941#3949#0" />
+                <element signature="e#96#896#0" />
                 <element signature="e#4124#4953#0" />
-                <element signature="e#5035#7271#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/informed.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="236" column="108" lean-forward="true" selection-start-line="236" selection-start-column="108" selection-end-line="236" selection-end-column="108" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+                <element signature="e#92#892#0" />
+                <element signature="e#1125#2106#0" />
+                <element signature="e#2181#2280#0" />
+                <element signature="e#2335#2815#0" />
               </folding>
             </state>
           </provider>
@@ -65,10 +82,11 @@
         <option value="$PROJECT_DIR$/bfs.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/informed.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
+  <component name="ProjectFrameBounds" extendedState="5">
     <option name="x" value="214" />
     <option name="y" value="24" />
     <option name="width" value="1152" />
@@ -80,7 +98,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -96,10 +113,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -130,16 +149,18 @@
       <workItem from="1552622998567" duration="5256000" />
       <workItem from="1552631982736" duration="7399000" />
       <workItem from="1553049444685" duration="956000" />
+      <workItem from="1553231825373" duration="165000" />
+      <workItem from="1553243172343" duration="4859000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16289000" />
+    <option name="totallyTimeSpent" value="21313000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="214" y="24" width="1152" height="744" extended-state="4" />
+    <frame x="214" y="24" width="1152" height="744" extended-state="5" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27576855" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28661844" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -153,7 +174,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.28200972" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.44732577" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32956383" />
       <window_info anchor="right" x="0" y="0" width="238" height="544" id="Documentation" order="0" side_tool="true" weight="0.32911393" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
@@ -167,13 +188,7 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bfs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/bfs.py" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -183,15 +198,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        <state relative-caret-position="247">
+          <caret line="212" column="16" selection-start-line="212" selection-start-column="16" selection-end-line="215" selection-end-column="73" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
-            <element signature="e#90#890#0" />
-            <element signature="e#935#1916#0" />
-            <element signature="e#1941#3949#0" />
+            <element signature="e#96#896#0" />
             <element signature="e#4124#4953#0" />
-            <element signature="e#5035#7271#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/informed.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="236" column="108" lean-forward="true" selection-start-line="236" selection-start-column="108" selection-end-line="236" selection-end-column="108" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#92#892#0" />
+            <element signature="e#1125#2106#0" />
+            <element signature="e#2181#2280#0" />
+            <element signature="e#2335#2815#0" />
           </folding>
         </state>
       </provider>
